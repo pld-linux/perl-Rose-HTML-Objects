@@ -9,7 +9,7 @@ Summary:	Rose::HTML::Objects - Object-oriented interfaces for HTML.
 #Summary(pl.UTF-8):	
 Name:		perl-Rose-HTML-Objects
 Version:	0.601
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -53,7 +53,7 @@ or XHTML for display purposes.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{perl_vendorlib}/Rose/HTMLx
+install -d $RPM_BUILD_ROOT%{perl_vendorlib}/Rose/HTMLx/Form
 
 %{__make} pure_install \
 	DESTDIR=$RPM_BUILD_ROOT
